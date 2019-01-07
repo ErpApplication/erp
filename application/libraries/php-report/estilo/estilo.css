@@ -1,0 +1,234 @@
+td,div,select,textarea,form {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+select.rel {
+	width: 150px; 
+}
+select.rel2 {
+	width: 85px; 
+}
+select.usu {
+	width: 220px; 
+}
+body {
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #003399;
+}
+td.passooff {
+	color: #003399;
+	background-color:#EFEFEF;
+}
+td.passoon {
+	color: #FF0000;
+	background-color:#E8E8E8;
+	cursor: hand; 
+}
+.titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #003399;
+}
+.subtitulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003399;
+}
+.rodape {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+input.botao_cad {
+	background-image: url(../imagens/botao-cad.jpg);
+	background-color: #FFFFFF;
+	border: none;
+	height: 34px;
+	width: 112px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	cursor:pointer;
+	cursor:hand;
+}
+input.botao_conf {
+	background-image: url(../imagens/botao-conf.jpg);
+	background-color: #FFFFFF;
+	border: none;
+	height: 34px;
+	width: 112px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	cursor:pointer;
+	cursor:hand;
+}
+input.botao_edi {
+	background-image: url(../imagens/botao-edi.jpg);
+	background-color: #FFFFFF;
+	border: none;
+	height: 34px;
+	width: 112px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	cursor:pointer;
+	cursor:hand;
+}
+input.botao_excl {
+	background-image: url(../imagens/botao-excl.jpg);
+	background-color: #FFFFFF;
+	border: none;
+	height: 34px;
+	width: 112px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	cursor:pointer;
+	cursor:hand;
+}
+input.botao_cancel {
+	background-image: url(../imagens/botao-cancel.jpg);
+	background-color: #FFFFFF;
+	border: none;
+	height: 34px;
+	width: 112px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	cursor:pointer;
+	cursor:hand;
+}
+input.botao_pesq {
+	background-image: url(../imagens/botao-pesq.jpg);
+	background-color: #FFFFFF;
+	border: none;
+	height: 34px;
+	width: 112px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	cursor:pointer;
+	cursor:hand;
+}
+input.botao_avanc {
+	background-image: url(../imagens/botao-avanc.jpg);
+	background-color: #FFFFFF;
+	border: none;
+	height: 34px;
+	width: 112px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	cursor:pointer;
+	cursor:hand;
+}
+input.botao_volt {
+	background-image: url(../imagens/botao-volt.jpg);
+	background-color: #FFFFFF;
+	border: none;
+	height: 34px;
+	width: 112px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	cursor:pointer;
+	cursor:hand;
+}
+input.botao_ok {
+	background-image: url(../imagens/botao-ok.jpg);
+	background-color: #FFFFFF;
+	border: none;
+	height: 34px;
+	width: 63px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	cursor:pointer;
+	cursor:hand;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+.mensagem {
+	font-weight: bold;
+	color: #FF0000;		
+}
+.grupo0 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+}
+.grupo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+
+/* =-=-=-=-=-=-=- Menu -=-=-=-=-=-=-=- */
+#menu {
+	margin: 0px;
+	border: 0px none;
+}
+#menu li a {
+  voice-family: "\"}\""; 
+  voice-family: inherit;
+  height: 25px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}	
+#menu li a:link, #menu li a:visited {
+	color: #333333;
+	display: block;
+	background: url(../imagens/menu.gif);
+	text-align: center;
+}
+#menu li a:hover {
+	color: #000000;
+	background: url(../imagens/menu.gif) 0 -25px;
+	text-align: center;
+}
+#menu li a:active {
+	color: #FFFFFF;
+	background: url(../imagens/menu.gif) 0 -50px;
+	text-align: center;
+}
+
+/* =-=-=-=-=-=-=- Lista Tabela e Campos -=-=-=-=-=-=-=- */
+.maozinha{
+	cursor: hand;
+	background-color: #F5F5F5;
+}
+li ul {
+	display: none;
+}
+li.treeVisible ul {
+	display: block;
+}
+li.treeVisible li ul {
+	display: none;
+}
+li.treeVisible li.treeVisible ul {
+	display: block;
+}
